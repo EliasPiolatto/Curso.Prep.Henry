@@ -1,0 +1,1 @@
+Array: los array son correcciones o modificaciones que se le pueden realizar a variables ya establecidas. 
