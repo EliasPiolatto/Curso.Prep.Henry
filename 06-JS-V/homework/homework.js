@@ -45,6 +45,12 @@ function agregarStringInvertida() {
     return stringInvertida;
   };
 }
+// Otra forma es:
+// String.prototype.reverse = function(){
+// return this.split("").reverse().join("") // .split convierte el string a array.
+// }
+
+
 
 // ---------------------------------------------------------------------------//
   //Crea el constructor de la clase "Persona"

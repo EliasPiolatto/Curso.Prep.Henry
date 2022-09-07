@@ -1,18 +1,17 @@
-img {
-    width: 400px;
+h1{
+    color:darkgreen;
 }
-
-
-thirdDiv {
-    height:600px;
+img {
+width: 400px;
+}
+#thirdDiv {
+height:600px;
 width:500px;
 background-color: violet;
 padding: 50px;
-border: 2px, solid, royalblue;
+border: 5px solid royalblue;
 }
-
-
-spanId{
-    font-size: 18px;
-    margin: 50px;
+#spanId{
+font-size: 18px;
+margin: 50px;
 }

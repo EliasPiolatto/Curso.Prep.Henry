@@ -76,6 +76,7 @@ function tieneEmail(usuario) {
 
 
 
+
 function tienePropiedad(objeto, propiedad) {
   // Devuelve "true" si el objeto (parámetro "objeto") tiene una propiedad (key) cuyo nombre es igual al valor del argumento "propiedad"
   // "propiedad" es un string
@@ -87,6 +88,16 @@ function tienePropiedad(objeto, propiedad) {
     return false;
   }
 }
+//Otra forma de hacerlo:
+// if(objeto.hasOwnProperty(propiedad)){
+// return true
+// }
+// else{
+// return false
+// }
+// O tambien:
+// return objeto.hasOwnProperty(propiedad);  //  Porque .hasOwnProperty devuelve un booleano.
+
 
 function verificarPassword(usuario, password) {
   // Comprueba si la "password" enviada coincide con la propiedad "password" del objeto "usuario"
